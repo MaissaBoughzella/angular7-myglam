@@ -1,0 +1,66 @@
+
+#main{
+  background-image:url("../../assets/img/slider_image_home@2x.png");
+  background-size:cover;
+  height:600px;
+  background-repeat: no-repeat;
+}
+#logo{
+  align-items: center;
+  margin-top: 2%;
+  margin-left: 45%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+
+}
+#nav{
+
+  margin-left: 20%;
+  margin-right: 20%;
+
+}
+
+#aa,h3,p{
+  color:white;
+  font-family:lucida sans;
+
+}
+h3{
+
+  margin-top:100px;
+}
+p{
+
+  margin-left: 20%;
+  margin-right: 20%;
+  font-size: 1em;
+}
+#reserve{
+
+  background-color:transparent;
+  border-color:white;
+  font-family:lucida sans;
+  color:white;
+  align-content: center;
+  margin-bottom:2%;
+  margin-top:2%;
+}
+#scroll{
+
+  width:1%;
+}
+
+
+
+
+
+
+

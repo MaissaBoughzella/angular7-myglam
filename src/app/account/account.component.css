@@ -1,0 +1,62 @@
+h4{
+  margin-top: 7%;
+  text-align: center;
+  font-family:lucida sans;
+  color: red;
+}
+#line{
+  margin-bottom: 5%;
+  margin-left: 45%;
+}
+h5{
+  margin-top: 5%;
+  text-align: center;
+  font-family:lucida sans;
+  color:black;
+
+}
+.card-text{
+  text-align: center;
+  margin-left: 30%;
+  margin-right: 30%;
+  font-family:lucida sans;
+  color:grey;
+
+}
+#cap{
+  margin-left: 43%;
+  margin-top: 1%;
+  margin-bottom: 2%;
+
+}
+
+#res
+  {
+
+      font-family:lucida sans;
+      margin-top:3%;
+      margin-bottom:3%;
+      align-content: center;
+
+
+}
+
+
+.content p{
+  text-align: center;
+  margin-left: 30%;
+  margin-right: 30%;
+  font-family:lucida sans;
+  color:grey;
+
+}
+#ff{
+  margin-left:34%;
+  height:100px;
+  width:100px;
+}
+#cc{
+  border: none;
+}
+
+

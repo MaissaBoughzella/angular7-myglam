@@ -1,0 +1,34 @@
+<section id="services">
+  <div class="container-fluid">
+    <h4 class="text-center" id="title">EXPLORE OUR SERVICES</h4>
+    <img id="line" src="../../assets/img/title _line_category_1@1x.png">
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner row w-100 mx-auto">
+      <div *ngFor="let i of datas;let isFirst = first"  [class.active]="isFirst" class="carousel-item col-md-4 active">
+        <div  class="card" >
+          <img class="card-img-top img-fluid" src="http://{{ i.imagePath }}" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">{{ i.label }}</h4>
+            <p class="card-text">{{ i.description }}</p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  <div class="text-center">
+    <button class="btn btn-danger btn-md" id="ex">EXPLORE ALL</button>
+  </div>
+</div>
+
+
+</section>
